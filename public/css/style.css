@@ -1,0 +1,7 @@
+body.custom-background {
+  background-image: url("../img/bg.jpg");
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
-    <title>Blog</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+      
+    <title>Ruby Personal Blog</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+     <link media="all" href="./css/all.css.css" rel="stylesheet" />
+    <link media="all" href="./css/style.css" rel="stylesheet" />
+     <link href="./img/favicon.ico" rel="icon" />
   </head>
 
-  <body>
+  <body class="home blog custom-background wp-custom-logo wp-embed-responsive site-loaded sidebar-left">
     <%= yield %>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+   
   </body>
 </html>
