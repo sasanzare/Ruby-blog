@@ -16,7 +16,23 @@
   </head>
 
   <body class="home blog custom-background wp-custom-logo wp-embed-responsive site-loaded sidebar-left">
-    <%= yield %>
+<div id="page" class="hfeed site container">
+      <div class="wrapper">
+        <%= render 'layouts/sidebar' %>
+        <%= yield %>
+      </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
    
